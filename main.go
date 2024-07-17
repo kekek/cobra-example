@@ -1,12 +1,12 @@
 package main
 
 import (
-	"cobra-example/sub/list"
 	"os"
 
 	"github.com/spf13/cobra"
 
 	"cobra-example/sub/get"
+	"cobra-example/sub/list"
 )
 
 var Version string

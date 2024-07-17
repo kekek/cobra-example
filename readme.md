@@ -52,7 +52,13 @@ bash-completion 脚本主要定义了以下几个常用的函数，用于实现�
 
 全局生成自动补全代码
 
-`./cobra-example completion bash > /etc/bash_completion.d/cobra-example`
+```
+./cobra-example completion bash > /etc/bash_completion.d/cobra-example
+
+source /etc/bash_completion.d/cobra-example
+
+```
+
 
 ### 参考示例
 
